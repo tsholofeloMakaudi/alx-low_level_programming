@@ -1,9 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
 /**
  * main - pperforms main function of the programme
  *
@@ -15,7 +13,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	printf("last digit of %d is %d ", n, n % 10);
 	if (n % 10 > 5)
 	{
