@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - checks alphabetical charecters
+ * _isalpha - Checks alphabetical charecters
  * @c: The charecter to be checked
- * Returns: 1 if is an alphabet, 0 for anything else
+ * Return: 1 if is an alphabet, 0 for anything else
  */
 
 int _isalpha(int c)
