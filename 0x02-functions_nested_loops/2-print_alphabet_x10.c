@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - calls a function that print alphabets X10
- *
- * Return: 0 success
+ * print_alphabet_x10 - print alphabets 10 times
+ * Return: void
  */
 
 void print_alphabet_x10(void)
@@ -10,7 +9,7 @@ void print_alphabet_x10(void)
 	char c;
 	int i = 0;
 
-	while(i <= 9)
+	while (i <= 9)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
