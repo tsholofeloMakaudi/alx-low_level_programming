@@ -2,7 +2,7 @@
 /**
  * *string_toupper - changes all lower cases of a string to upper
  * @str - the string to be checked
- * Retuen: a pointer to the changed string
+ * Return: a pointer to the changed string
  */
 
 char *string_toupper(char *str)
