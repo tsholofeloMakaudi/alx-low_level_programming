@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *string_toupper - changes all lower cases of a string to upper
- * @str - the string to be checked
+ * @str: the string to be checked
  * Return: a pointer to the changed string
  */
 
