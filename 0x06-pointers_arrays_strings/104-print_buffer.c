@@ -10,7 +10,7 @@
 void print_buffer(char *b, int size)
 {
 	int o = 0;
-	int j, i, c;
+	int j, i;
 
 	if (size <= 0)
 	{
@@ -34,7 +34,7 @@ void print_buffer(char *b, int size)
 		}
 		for (i = 0; i < j; i++)
 		{
-			c = *(b + o + i);
+			int c = *(b + o + i);
 
 			if (c < 32 || c > 132)
 			{
